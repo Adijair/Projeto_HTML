@@ -16,15 +16,14 @@ header {
 
 header img {
   width: 200px;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
-
 
 body {
   text-align: center;
 }
 
-h1{
+h1 {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -61,7 +60,34 @@ div h1 {
   margin-top: 40px;
 }
 
+.botao_comprar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: green;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+.product-price{
+  color: rgb(218, 112, 74);
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  position: absolute;
+  bottom: 70px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
 .product {
+  position: relative;
   width: 300px;
   height: 480px;
   background: transparent;
@@ -91,10 +117,25 @@ div h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 40px;
+}
+
+.botao_comprar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: green;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 10px;
 }
 
 .product2 {
+  position: relative;
   width: 300px;
   height: 480px;
   background: transparent;
@@ -124,10 +165,25 @@ div h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 40px;
+}
+
+.botao_comprar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: green;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 10px;
 }
 
 .product3 {
+  position: relative;
   width: 300px;
   height: 480px;
   background: transparent;
@@ -153,7 +209,29 @@ div h1 {
   text-decoration: none;
 }
 
-.produto-link{
-    text-decoration: none;
+.produto-link {
+  text-decoration: none;
 }
-  
+
+.footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer-content .contact-info,
+.footer-content .about-us {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.footer-bottom {
+  background-color: #ddd;
+  padding: 10px;
+}
