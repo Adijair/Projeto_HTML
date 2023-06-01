@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+/* INDEX */
+
 body {
   margin: 0;
   padding: 0;
@@ -47,10 +49,8 @@ nav ul li a {
   font-family: 'Montserrat', sans-serif;
 }
 
-div h1 {
-  flex-grow: 1;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
+.produto-link {
+  text-decoration: none;
 }
 
 .products-container {
@@ -60,18 +60,31 @@ div h1 {
   margin-top: 40px;
 }
 
-.botao_comprar {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  background-color: green;
+.product {
+  position: relative;
+  width: 300px;
+  height: 480px;
+  background: transparent;
+  border-radius: 3px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.product-title {
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: black;
-  font-family: 'Montserrat', sans-serif;
-  border-radius: 8px;
-  padding: 10px 20px;
-  margin: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.product img {
+  width: 200px;
+  height: 200px;
 }
 
 .product-price {
@@ -87,40 +100,6 @@ div h1 {
   margin: auto;
 }
 
-.product {
-  position: relative;
-  width: 300px;
-  height: 480px;
-  background: transparent;
-  border-radius: 3px;
-  box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 20px;
-}
-
-.product img {
-  width: 200px;
-  height: 200px;
-}
-
-.product-title {
-  font-size: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: black;
-  margin-top: 10px;
-  text-decoration: none;
-}
-
-.products-container2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 40px;
-}
-
 .botao_comprar {
   position: absolute;
   bottom: 0;
@@ -135,13 +114,20 @@ div h1 {
   margin: 10px;
 }
 
+.products-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
 .product2 {
   position: relative;
   width: 300px;
   height: 480px;
   background: transparent;
   border-radius: 3px;
-  box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -162,13 +148,6 @@ div h1 {
   text-decoration: none;
 }
 
-.products-container3 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 40px;
-}
-
 .botao_comprar {
   position: absolute;
   bottom: 0;
@@ -183,13 +162,20 @@ div h1 {
   margin: 10px;
 }
 
+.products-container3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
 .product3 {
   position: relative;
   width: 300px;
   height: 480px;
   background: transparent;
   border-radius: 3px;
-  box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -210,8 +196,18 @@ div h1 {
   text-decoration: none;
 }
 
-.produto-link {
-  text-decoration: none;
+.botao_comprar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: green;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 10px;
 }
 
 .footer {
@@ -237,32 +233,58 @@ div h1 {
   padding: 10px;
 }
 
-.titulocel1 {
+/* PAGINAS_PRODUTOS */
+
+.container_img_do_produto {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background: transparent;
+  border-radius: 3px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 4%;
+  margin-left: 6%;
+}
+
+.imgproduto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto; 
+}
+
+.infoproduto_comprar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 40%;
+  right: 7%;
+  margin: 4%;
+}
+
+.tituloproduto {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: black;
-  margin-left: 153px;
-  margin-top: 70px;
-  display: flex;
+  margin: 0;
+  text-align: left;
 }
 
-.cel1img {
-  display: flex;
-  margin-left: 60px;
-  width: 30%;
-}
-
-.descricaopr {
+.vendido_por {
   color: rgb(0, 0, 0);
   text-decoration: none;
-  display: flex;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 18px;
-  position: absolute;
-  bottom: 360px;
-  right: 496px;
+  margin-bottom: 1px;
+  text-align: left;
 }
 
-.botao_comprar_pagprod {
+.botao_comprar_produto {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -271,195 +293,17 @@ div h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   border-radius: 8px;
-  padding: 10px 20px;
-  position: absolute;
-  bottom: 310px;
-  right: 200px;
-  width: 240px;
+  padding: 10px 100px;
+  margin-bottom: 10px;
+  margin-left: 0px;
 }
 
-.product-price_pagpr {
+.produtopreco {
   color: rgb(218, 112, 74);
   text-decoration: none;
-  display: flex;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 55px;
-  position: absolute;
-  bottom: 250px;
-  right: 500px;
+  font-size: 45px;
+  margin-bottom: 10px;
+  display: inline-block;
 }
 
-.cel2img {
-  display: flex;
-  margin-left: 60px;
-  width: 30%;
-}
-
-.descricaopr2 {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  display: flex;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 18px;
-  position: absolute;
-  bottom: 360px;
-  right: 496px;
-}
-
-.botao_comprar_pagprod2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
-  color: black;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  border-radius: 8px;
-  padding: 10px 20px;
-  position: absolute;
-  bottom: 310px;
-  right: 200px;
-  width: 240px;
-}
-
-.product-price_pagpr2 {
-  color: rgb(218, 112, 74);
-  text-decoration: none;
-  display: flex;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 55px;
-  position: absolute;
-  bottom: 250px;
-  right: 500px;
-}
-
-.cel21img {
-  display: flex;
-  margin-left: 60px;
-  width: 30%;
-}
-
-.descricaopr21 {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  display: flex;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 18px;
-  position: absolute;
-  bottom: 360px;
-  right: 496px;
-}
-
-.botao_comprar_pagprod21 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
-  color: black;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  border-radius: 8px;
-  padding: 10px 20px;
-  position: absolute;
-  bottom: 310px;
-  right: 200px;
-  width: 240px;
-}
-
-.product-price_pagpr21 {
-  color: rgb(218, 112, 74);
-  text-decoration: none;
-  display: flex;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 55px;
-  position: absolute;
-  bottom: 250px;
-  right: 500px;
-}
-
-.cel22img {
-  display: flex;
-  margin-left: 60px;
-  width: 30%;
-}
-
-.descricaopr22 {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  display: flex;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 18px;
-  position: absolute;
-  bottom: 360px;
-  right: 496px;
-}
-
-.botao_comprar_pagprod22 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
-  color: black;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  border-radius: 8px;
-  padding: 10px 20px;
-  position: absolute;
-  bottom: 310px;
-  right: 200px;
-  width: 240px;
-}
-
-.product-price_pagpr22 {
-  color: rgb(218, 112, 74);
-  text-decoration: none;
-  display: flex;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 55px;
-  position: absolute;
-  bottom: 250px;
-  right: 500px;
-}
-.cel23img {
-  display: flex;
-  margin-left: 60px;
-  width: 30%;
-}
-
-.descricaopr23 {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  display: flex;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 18px;
-  position: absolute;
-  bottom: 360px;
-  right: 496px;
-}
-
-.botao_comprar_pagprod23 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
-  color: black;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  border-radius: 8px;
-  padding: 10px 20px;
-  position: absolute;
-  bottom: 310px;
-  right: 200px;
-  width: 240px;
-}
-
-.product-price_pagpr23 {
-  color: rgb(218, 112, 74);
-  text-decoration: none;
-  display: flex;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 55px;
-  position: absolute;
-  bottom: 250px;
-  right: 500px;
-}
