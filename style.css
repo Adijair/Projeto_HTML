@@ -27,6 +27,7 @@ body {
 
 h1 {
   font-family: 'Montserrat', sans-serif;
+  margin-top: 50px;
 }
 
 nav ul {
@@ -57,7 +58,7 @@ nav ul li a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .product {
@@ -119,6 +120,7 @@ nav ul li a {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 40px;
+  margin-bottom: 70px;
 }
 
 .product2 {
@@ -167,6 +169,7 @@ nav ul li a {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 40px;
+  margin-bottom: 70px
 }
 
 .product3 {
@@ -210,27 +213,36 @@ nav ul li a {
   margin: 10px;
 }
 
-.footer {
-  background-color: #f5f5f5;
-  padding: 20px;
+footer {
+  background-color: rgb(0, 140, 255);
+  padding: 12px;
   text-align: center;
+  font-size: 17px;
+  position: relative;
 }
 
 .footer-content {
   display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 40px; /* Aumenta a margem inferior */
 }
 
-.footer-content .contact-info,
-.footer-content .about-us {
-  flex: 1;
-  margin: 0 10px;
+.contact-info,
+.about-us {
+  flex-basis: calc(50% - 20px);
 }
 
 .footer-bottom {
-  background-color: #ddd;
-  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
 }
 
 /* PAGINAS_PRODUTOS */
@@ -332,3 +344,58 @@ nav ul li a {
   font-weight: bold;
 }
 
+/* PAGINAS DE SUPORTE */
+
+.suporte_container{
+  margin-bottom: 70px;
+}
+
+input[type="reset"] {
+  background-color: #ccc;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.form-row {
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 10%;
+  padding: 5px;
+}
+
+textarea{
+  width: 40%;
+  padding: 5px;
+}
+
+select {
+  width: 11%;
+  padding: 5px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+.resposta_mensagem {
+  display: block;
+  text-align: center;
+  padding: 10px 10px;
+  width: 800px;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+  margin-bottom: 25vh;
+  margin-top: 60px;
+}
