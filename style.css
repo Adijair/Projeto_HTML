@@ -201,7 +201,7 @@ footer {
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
-  margin-bottom: 40px; /* Aumenta a margem inferior */
+  margin-bottom: 40px; 
 }
 
 .contact-info,
@@ -315,6 +315,14 @@ footer {
   font-size: 20px;
   color: #4d4d4d;
   font-weight: bold;
+}
+
+.topicos_descricao{
+  display: block;
+  font-size: 20px;
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 50px;
 }
 
 /* PAGINAS DE SUPORTE */
