@@ -107,11 +107,12 @@ nav ul li a {
   left: 0;
   right: 0;
   margin: auto;
-  background-color: green;
+  background-color: rgb(13, 185, 13);
   color: black;
   font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
   border-radius: 8px;
-  padding: 10px 20px;
+  padding: 6px 20px;
   margin: 10px;
 }
 
@@ -150,20 +151,6 @@ nav ul li a {
   text-decoration: none;
 }
 
-.botao_comprar {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  background-color: green;
-  color: black;
-  font-family: 'Montserrat', sans-serif;
-  border-radius: 8px;
-  padding: 10px 20px;
-  margin: 10px;
-}
-
 .products-container3 {
   display: flex;
   flex-wrap: wrap;
@@ -197,20 +184,6 @@ nav ul li a {
   color: black;
   margin-top: 10px;
   text-decoration: none;
-}
-
-.botao_comprar {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  background-color: green;
-  color: black;
-  font-family: 'Montserrat', sans-serif;
-  border-radius: 8px;
-  padding: 10px 20px;
-  margin: 10px;
 }
 
 footer {
@@ -300,7 +273,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: green;
+  background-color: rgb(15, 211, 15);
   color: black;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
