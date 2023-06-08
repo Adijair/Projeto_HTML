@@ -116,6 +116,7 @@ nav ul li a {
   border-radius: 8px;
   padding: 6px 20px;
   margin: 10px;
+  cursor: pointer;
 }
 
 .products-container2 {
@@ -125,7 +126,6 @@ nav ul li a {
   justify-content: center;
   margin-top: 10px;
   width: 100%;
-  padding-bottom: 70px;
 }
 
 .product2 {
@@ -143,8 +143,8 @@ nav ul li a {
 }
 
 .product2 img {
-  width: 170px;
-  height: 170px;
+  width: 200px;
+  height: 200px;
 }
 
 .product-title2 {
@@ -160,7 +160,6 @@ nav ul li a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 40px;
   margin-bottom: 70px;
   width: 100%;
 }
@@ -287,6 +286,7 @@ footer {
   padding: 10px 100px;
   margin-bottom: 10px;
   margin-left: 0px;
+  cursor: pointer;
 }
 
 .produtopreco {
@@ -385,4 +385,103 @@ input[type="checkbox"] {
   margin: 0 auto;
   margin-bottom: 25vh;
   margin-top: 60px;
+}
+
+/* PAGINAS DE COMPRA */
+
+.header_laranja
+h4{
+  background-color: rgb(218, 112, 74);
+  padding: 8px;
+  margin-top: 0;
+  font-size: 33px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+h5{
+  font-size: 40px;
+}
+
+h6{
+  font-size: 32px;
+}
+
+h7{
+  font-size: 30px;
+}
+
+.titulo_pagcompra {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.dados_container {
+  text-align: left;
+  padding-left: 1%;
+  padding-bottom: 60px;
+}
+
+.form-row2 {
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text2"],
+input[type="email"][name="digite_seu_email"] {
+  width: 20%;
+  padding: 5px;
+}
+
+textarea {
+  width: 40%;
+  padding: 5px;
+}
+
+select {
+  width: 11%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  margin-right: 2px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input[type="submit"][name="concluir_pagamento"] {
+  background-color: rgb(15, 211, 15);
+  width: 10%;
+  height: 40px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+input[type="reset"] {
+  background-color: #ccc;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 750px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+  margin-bottom: 80px;
+}
+
+.mensagem-final {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
