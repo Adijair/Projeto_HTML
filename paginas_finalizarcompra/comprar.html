@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Destiny Store</title>
+</head>
+<body>
+    <header>
+        <a href="/index.html"><img src="/img/logo.png"></a>
+      </header>
+      <div class="header_laranja">
+        <h4>Finalizar Compra</h4>
+      </div>
+      <h1 class="titulo_pagcompra">Preencha seus dados para finalizar a compra.</h1>
+    <div class="dados_container">
+        <form metheod="get" action="resposta.html">
+            <div class="form-row2">
+              <label>Digite seu nome:</label>
+              <input type="text2" name="nome" required>
+            </div>
+
+            <div class="form-row2">
+                <label>Digite seu Endereço:</label>
+                <input type="text2" name="endereço" required>
+              </div>
+          
+            <div class="form-row2">
+              <label>Digite seu email:</label>
+              <input type="email" name="digite_seu_email" required>
+            </div>
+          
+            <div class="form-row2">
+              <label>Forma de Pagamento:</label>
+              <select name="Forma de Pagamento" required>
+                <option value="credito">Cartão de Crédito</option>
+                <option value="debito">Cartão de Debito</option>
+                <option value="pix" selected>Pix</option>
+                <option value="boleto">Boleto Bancário</option>
+              </select>
+            </div>
+
+            <div class="form-row2">
+              <input type="submit" name="concluir_pagamento" value="Concluir Pagamento">
+              <input type="checkbox" name="termos" required> Aceito os termos e condições do site
+            </div>
+          
+            <div class="form-row2">
+              <input type="reset" value="Redefinir Seus Dados">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+<footer>
+  <div class="footer-content">
+    <div class="contact-info">
+      <h3>Contato</h3>
+      <a href="/paginas_suporte/suporte.html"><p>Página de Suporte</p></a>
+      <p>Email: contato@destinystr.com</p>
+      <p>Telefone: (83)99637-5778</p>
+    </div>
+    <div class="about-us">
+      <h3>Sobre Nós</h3>
+      <p>Bem-vindo à nossa loja de produtos eletrônicos recém-inaugurada! Estamos empolgados em oferecer uma ampla variedade de produtos eletrônicos de última geração para atender às suas necessidades tecnológicas.</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>Todos os direitos reservados Destiny&copy; 2023</p>
+  </div>
+</footer>
+</body>
+</html>
