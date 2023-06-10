@@ -250,13 +250,13 @@ footer {
 }
 
 .infoproduto_comprar {
+  width: 450px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   position: absolute;
-  top: 40%;
-  right: 7%;
-  margin: 4%;
+  right: 6%;
+  top: 45%;
 }
 
 .tituloproduto {
