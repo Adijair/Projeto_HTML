@@ -339,7 +339,7 @@ a{
 
 /* PAGINAS DE SUPORTE */
 
-.suporte_container{
+.suporte_container {
   margin-bottom: 70px;
 }
 
@@ -420,6 +420,7 @@ h7{
 .titulo_pagcompra {
   text-align: left;
   padding-left: 20px;
+  font-size: 30px;
 }
 
 .dados_container {
